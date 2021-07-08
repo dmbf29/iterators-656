@@ -30,6 +30,7 @@ def map(array)
   array.each do |element|
     new_array << yield(element)
   end
+  return new_array
 end
 
 
